@@ -13,3 +13,19 @@ html {
   width: 33%;
   height: 20%;
 }
+form{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  flex-direction: column;
+}
+#username, #password{
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+img{
+  height: 50%;
+  width: 50%
+}
