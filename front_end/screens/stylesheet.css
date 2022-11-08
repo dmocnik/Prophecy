@@ -28,3 +28,19 @@ form{
 #templates{
   display: block;
 }
+#displayresumeflex{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#prophecytext{
+  background-color: #d9d9d9;
+  padding: 10px;
+  filter: drop-shadow(0px, 2px, 2px, black);
+  border-radius: 10px;
+  margin: 10px;
+}
