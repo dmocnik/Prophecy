@@ -26,7 +26,12 @@ form{
   margin-bottom: 5px;
 }
 #choose_template_text{
+  background-color: #D9D9d9;
+  padding: 10px;
+  border-radius: 10px;
+  filter: drop-shadow(0px 2px 2px #000000);
   font-size: 36px;
+  margin-top: 10px;
 }
 #templateflex{
   display:flex;
@@ -49,6 +54,7 @@ form{
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  width:75%;
 }
 #template{
   height:40%;
@@ -59,9 +65,6 @@ form{
   border: 2px solid purple;
   box-sizing: border-box;
   filter: drop-shadow(0px 2px 2px black);
-}
-#choose_template_text{
-  margin-top: 10px;
 }
 #prophecytext{
   background-color: #D9D9d9;
