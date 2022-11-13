@@ -32,6 +32,13 @@ form{
   display:flex;
   flex-direction: column;
   align-items: center;
+}
+#displayresumeflex{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: flex-start;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -54,9 +61,19 @@ form{
   filter: drop-shadow(0px 2px 2px black);
 }
 #choose_template_text{
+  margin-top: 10px;
+}
+#prophecytext{
   background-color: #D9D9d9;
   padding: 10px;
   border-radius: 10px;
   filter: drop-shadow(0px 2px 2px #000000);
 }
-
+#resume_img{
+  background-size:contain;
+  margin:10px;
+}
+#download_pdf, #download_png, #new_template{
+  height:50px;
+  margin-bottom: 10px;
+}
