@@ -29,9 +29,8 @@ form{
   display: block;
 }
 #displayresumeflex{
-  height:70%;
   display:flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   align-content: flex-start;
