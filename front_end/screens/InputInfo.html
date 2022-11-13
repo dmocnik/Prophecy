@@ -1,23 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <link rel="stylesheet" href="stylesheet.css" type="text/css"/>
-    </head>
-    <body>
-        <form>
-            <input type="text" name="firstname" id=""/>
-            <input type="text" name="lastname" id=""/>
-            <input type="text" name="email" id=""/>
-            <input type="text" name="phonenumber" id=""/>
-            <input type="text" name="skills1" id=""/>
-            <input type="text" name="skills2" id=""/>
-            <input type="text" name="skills3" id=""/>
-            <input type="text" name="prevEmployment1" id=""/>
-            <input type="text" name="prevEmployment2" id=""/>
-            <button>
-                Submit
-            </button>
-        </form>
-    </body>
+<html>
+  <head>
+    <title>Input Information</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="stylesheet.css" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li><a href="#pgContact">Contact</a></li>
+        <li><a href="#pgSkill">Skills</a></li>
+        <li><a href="#pgEmployment">Previous Employment</a></li>
+      </ul>
+    </header>
+  </body>
 </html>
+
+<div class="main">
+  <section id="pgContact">
+    <div class="contact">
+      <h1>Contact Information</h1>
+          <input style="width: 350px" type="text" placeholder="First Name" />
+          <input style="width: 350px" type="text" placeholder="Last Name" />
+          <input style="width: 350px" type="text" placeholder="Email" />
+          <input style="width: 350px" type="text" placeholder="Phone Number" />
+          <input style="width: 350px" type="text" placeholder="City" />
+          <input style="width: 350px" type="text" placeholder="State" />
+          <input style="width: 350px" type="text" placeholder="Zip Code" />
+          <button type="submit" class="submit">Enter</button>
+        </div>
+      </section>
+
+
+  <section id="pgSkill">
+    <div class = "skill">
+      <h1>Skills</h1>
+      <input style="width: 350px" type="text" placeholder="Skill 1" />
+      <input style="width: 350px" type="text" placeholder="Skill 2" />
+      <input style="width: 350px" type="text" placeholder="Skill 3" />
+      <button type="submit" class="submit">Enter</button>
+      </div>
+  </section>
+
+  <section id="pgEmployment">
+    <div class = "employment">
+      <h1>Previous Employment</h1>
+      <input style="width: 350px" type="text" placeholder="Employer 1" />
+      <input style="width: 350px" type="text" placeholder="Employer 2" />
+      <input style="width: 350px" type="text" placeholder="Employer 3" />
+      <button type="submit" class="submit">Enter</button>
+      </div>
+  </section>
+</div>

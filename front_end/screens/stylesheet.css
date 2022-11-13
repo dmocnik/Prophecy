@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap%22");
+
 body{
     background-image: linear-gradient(to bottom, #AB21DC, #FFFFFF);
     background-repeat: no-repeat;
@@ -107,4 +109,100 @@ form{
 #download_pdf, #download_png, #new_template{
   height:50px;
   margin-bottom: 10px;
+}
+#pgContact,
+#pgSkill,
+#pgEmployment {
+  background-image: linear-gradient(to bottom, #ab21dc, #ffffff);
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow-y: hidden;
+  font-family: "Poppins", sans-serif;
+}
+.main {
+  height: 100%;
+  width: 400%;
+  display: flex;
+}
+header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  font-size: 1rem;
+  z-index: 1;
+}
+header ul {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+header ul li {
+  margin: 0 1rem;
+  padding: 1;
+}
+header ul li a {
+  position: relative;
+  color: #0c0b0b;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: larger;
+}
+header ul li a::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: -3px;
+  width: 0;
+  height: 3px;
+  transition: all 0.2s linear;
+}
+header ul li a:hover::after {
+  width: 100%;
+  background-color: #0d0d0e;
+}
+section {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+}
+h1 {
+  text-align: center;
+  position: relative;
+  top: 10px;
+}
+.contact{
+  position: relative;
+  top: 50px;
+}
+.skill{
+  position: relative;
+  top: 50px;
+}
+.employment{
+  position: relative;
+  top: 50px;
+}
+input[type="text"] {
+  border: 1px solid #ab21dc;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+  font-size: 20px;
+}
+button.submit{
+  font-size: 30px;
+  display: block;
+  margin: 10px;
+  background-color: #d966ff;
+  border-radius: 5px;
+  width: 110px;
+}
+*{
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
 }
