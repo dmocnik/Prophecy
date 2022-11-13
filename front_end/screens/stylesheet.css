@@ -34,7 +34,6 @@ form{
   margin-top: 10px;
 }
 #templateflex{
-  /* this is a test */
   display:flex;
   flex-direction: column;
   align-items: center;
