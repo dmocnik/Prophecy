@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap%22");
+
+body{
+    background-image: linear-gradient(to bottom, #AB21DC, #FFFFFF);
+    background-repeat: no-repeat;
+     height: 100vh;
+}
+header{
+  text-align: right;
+  font-size: 30px;
+}
+button.login{
+  font-size: 40px;
+}
+button.prophecy{
+  font-size: 50px;
+  height: 300px;
+  width: 300px;
+  text-align: center;
+}
+.login{
+  border-radius: 10px;
+  text-align: right;
+}
+.prophecy{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+}
+button:hover {
+background-color: #bf55e6;
+}
+html {
+    height: 100%;
+}
+#prophecy_button{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 33%;
+  height: 20%;
+}
+form{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  flex-direction: column;
+}
+#username, #password{
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#choose_template_text{
+  background-color: #D9D9d9;
+  padding: 10px;
+  border-radius: 10px;
+  filter: drop-shadow(0px 2px 2px #000000);
+  font-size: 36px;
+  margin-top: 10px;
+}
+#templateflex{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+#displayresumeflex{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: flex-start;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#templates{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width:75%;
+}
+#template{
+  height:40%;
+  width: 40%;
+  margin: 20px;
+}
+#template:hover{
+  border: 2px solid purple;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 2px 2px black);
+}
+#prophecytext{
+  background-color: #D9D9d9;
+  padding: 10px;
+  border-radius: 10px;
+  filter: drop-shadow(0px 2px 2px #000000);
+}
+#resume_img{
+  background-size:contain;
+  margin:10px;
+}
+#download_pdf, #download_png, #new_template{
+  height:50px;
+  margin-bottom: 10px;
+}
+#pgContact,
+#pgSkill,
+#pgEmployment {
+  background-image: linear-gradient(to bottom, #ab21dc, #ffffff);
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow-y: hidden;
+  font-family: "Poppins", sans-serif;
+}
+.main {
+  height: 100%;
+  width: 400%;
+  display: flex;
+}
+header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  font-size: 1rem;
+  z-index: 1;
+}
+header ul {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+header ul li {
+  margin: 0 1rem;
+  padding: 1;
+}
+header ul li a {
+  position: relative;
+  color: #0c0b0b;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: larger;
+}
+header ul li a::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: -3px;
+  width: 0;
+  height: 3px;
+  transition: all 0.2s linear;
+}
+header ul li a:hover::after {
+  width: 100%;
+  background-color: #0d0d0e;
+}
+section {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+}
+h1 {
+  text-align: center;
+  position: relative;
+  top: 10px;
+}
+.contact{
+  position: relative;
+  top: 50px;
+}
+.skill{
+  position: relative;
+  top: 50px;
+}
+.employment{
+  position: relative;
+  top: 50px;
+}
+input[type="text"] {
+  border: 1px solid #ab21dc;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+  font-size: 20px;
+}
+button.submit{
+  font-size: 30px;
+  display: block;
+  margin: 10px;
+  background-color: #d966ff;
+  border-radius: 5px;
+  width: 110px;
+}
+*{
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+#boxflex{
+  margin-top: 5px;
+display:flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 5px;
+}
+#bigButton{
+  margin-top: 5px;
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 5px;
+}
