@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="stylesheet.css" type="text/css"/>
     </head>
     <body>
-        <form action="../php/checklogin.php" method="post">
+        <form action="../php/signup.php" method="post">
             <div>
                 Username
             </div>
@@ -18,11 +18,29 @@
             <div id="boxflex">
                 <input style="width: 350px" type="text" id="password" name="password" placeholder="Enter Password" />
             </div>
+            <div>
+                Email Address
+            </div>
+            <div id="boxflex">
+                <input style="width: 350px" type="text" id="email" name="email" placeholder="Enter Email Address" />
+            </div>
+            <div>
+                First Name
+            </div>
+            <div id="boxflex">
+                <input style="width: 350px" type="text" id="firstname" name="firstname" placeholder="Enter First Name" />
+            </div>
+            <div>
+                Last Name
+            </div>
+            <div id="boxflex">
+                <input style="width: 350px" type="text" id="lastname" name="lastname" placeholder="Enter Last Name" />
+            </div>
             <button type="submit" id="bigButton">
-                Login
+                Create New Account
             </button>
             <button>
-                Create New Account
+                Back to Login
             </button>
             <button>
                 Login with Linkedin
