@@ -112,7 +112,8 @@ form{
 }
 #pgContact,
 #pgSkill,
-#pgEmployment {
+#pgEmployment,
+#pgEducation {
   background-image: linear-gradient(to bottom, #ab21dc, #ffffff);
   background-repeat: no-repeat;
   height: 100vh;
@@ -186,6 +187,10 @@ h1 {
   position: relative;
   top: 50px;
 }
+.education{
+  postition: relative;
+  top: 50px;
+}
 input[type="text"] {
   border: 1px solid #ab21dc;
   border-radius: 5px;
@@ -208,10 +213,10 @@ button.submit{
 }
 #boxflex{
   margin-top: 5px;
-display:flex;
-flex-direction: column;
-align-items: center;
-margin-bottom: 5px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5px;
 }
 #bigButton{
   margin-top: 5px;
