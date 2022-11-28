@@ -1,5 +1,3 @@
-bruh
-
 Built for CSI3370, Prophecy is a proof of concept resume building web application using LaTeX templates to quickly construct user-specific custom templates. The three default templates are:
 
 Casual - 
